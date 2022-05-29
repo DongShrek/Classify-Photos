@@ -12,7 +12,7 @@ do
 # Get the extensions of all files
 filename_extension=${photo##*.} 
  # Filter out the required image files
-if [ $filename_extension == "NEF" ] || [ $filename_extension == "JPG" ] ;then
+if [ $filename_extension == "MOV" ] ;then
 
 # 获取文件修改时间的时间戳
 file_timestamp=`stat -c %Y $photo`
